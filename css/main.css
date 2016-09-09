@@ -28,10 +28,59 @@ ul {
 h1 {
 	font-size: 40px;
 }
-h3 {
+section .banner h3 {
 	font-size: 24px;
-}
-h4 {
+}section .perfil h4 {
 	color: purple;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.perfil img {
+	border: 1px solid black;
+	padding: 4px;
+	width: 220px;
+	height: 220px;
 }
 
+section .perfil {
+	background: url(../images/tile1.png);
+}
+section .gatos h3, h4 {
+	text-align: center;
+	color: purple;
+	padding-top: 40px;
+}
+section .gatos img {
+	border-radius: 50%;
+	border: 1px solid purple;
+	text-align: center;
+	width: 160px;
+	height: 160px;
+	margin-top: 40px;
+	margin-left: 60px;
+	padding: 5px;
+}
+#fila-gatos {
+	margin-bottom: 30px;
+}
+.pie {
+	background: url(../images/tile2.png);
+}
+.redes img {
+	width: 100px;
+	height: 100px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.redes {
+	text-align: center;  
+	padding-bottom: 40px;
+}
+.text-footer {
+	text-align: center;
+}
+.text-footer {
+	color: purple;
+	margin-top: 20px;
+}
